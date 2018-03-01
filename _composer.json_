@@ -1,0 +1,13 @@
+{
+    "name": "brunojbela/framework-blog",
+    "description": "Framework para Blogs 1.0.0",
+    "authors": [
+        {
+            "name": "Bruno Bela",
+            "email": "bruno.jbela@gmail.com"
+        }
+    ],
+    "require": {
+         "php": ">=5.3.17"
+    }
+ }
