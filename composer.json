@@ -1,10 +1,21 @@
 {
     "name": "brunojbela/framework-blog",
+    "type": "wordpress-themes",
     "description": "Framework para Blogs 1.0.0",
+    "keywords": ["blog"],
+    "homepage": "https://github.com/brunojbela/framework-blog",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bruno Bela",
             "email": "bruno.jbela@gmail.com"
+            "homepage": "http://brunojbela.com.br",
+            "role": "Developer"
         }
-    ]
- }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}
