@@ -6,8 +6,5 @@
             "name": "Bruno Bela",
             "email": "bruno.jbela@gmail.com"
         }
-    ],
-    "require": {
-         "php": ">=5.3.17"
-    }
+    ]
  }
