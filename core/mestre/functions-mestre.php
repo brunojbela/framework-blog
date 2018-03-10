@@ -13,13 +13,13 @@
         while($lposts->have_posts()): $lposts->the_post();
             echo '<li>';
             echo '<figure class="col-xs-12 col-sm-3">';
-            echo '<a href="'.echo esc_url( get_permalink() ).' ">';
+            echo '<a href="'.esc_url( get_permalink() ).' ">';
             echo  get_the_post_thumbnail( $post->ID, 'blog-thumbnail' );
             echo  '</a></figure>';
             the_title( '<span class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></spa>' );
             echo '</li>';
         endwhile;
-        echo '</ul>'
+        echo '</ul>';
     }
 
     function listar_categorias($class) {

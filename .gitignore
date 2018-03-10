@@ -21,6 +21,7 @@
 *.esproj
 *.sublime-project
 *.sublime-workspace
+.git
 nbproject
 Thumbs.db
 
@@ -34,3 +35,5 @@ sftp-config.json
 .ftppass
 *.zip
 src/node_modules/*
+
+composer.json
